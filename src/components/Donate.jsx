@@ -53,7 +53,7 @@ const Donate = (props) => {
 
   return (
     <div className={classes.writePageContent}>
-      <Typography>Add Announcements</Typography>
+      
       {/* <div className={classes.successSubmit}>
         <div>Successfully Submitted!</div>
       </div> */}

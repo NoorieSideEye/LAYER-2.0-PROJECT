@@ -20,16 +20,18 @@ const useStyles = makeStyles((theme) => ({
     width: "80px",
     height: "80px",
     borderRadius: '48px',
+    border: "2px solid black",
   },
   headerTitle: {
     margin: "5px 0px 0px 10px",
     display: "inline-block",
     fontFamily: "Quicksand, sans-serif",
     fontWeight: 600,
-    fontSize: "1.75rem",
+    fontSize: "3rem",
     color: "#FFA500", // Change to orange
     textTransform: "capitalize",
   },
+  
   headerButton: {
     fontFamily: "Rubik, sans-serif",
     fontWeight: 600,
@@ -40,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: "40px",
     transition: "0.5s all ease-out",
     "&:hover": {
-      backgroundColor: "rgba(255, 255, 255, 0.3)",
+      backgroundColor: "orange",
     },
     "&:nth-child(5), &:nth-child(6)": {
       backgroundColor: "#FFD600", // Change to orange
