@@ -5,39 +5,37 @@ import {
   FormControl,
   InputLabel,
   MenuItem,
-} from "@material-ui/core"
-import React, { useState } from "react"
-import { useStyles } from "./styles/Write"
-import { useStyles as loginStyles } from "./styles/Login"
-import { useNavigate } from "react-router"
+} from "@material-ui/core";
+import React, { useState } from "react";
+import { useStyles } from "./styles/Write";
+import { useStyles as loginStyles } from "./styles/Login";
+import { useNavigate } from "react-router";
 
 const Login = (props) => {
-  const classes = useStyles()
-  const loginClass = loginStyles()
-  const navigate = useNavigate()
+  const classes = useStyles();
+  const loginClass = loginStyles();
+  const navigate = useNavigate();
 
   const handleOnChange = (event) => {
-    const value = event.target.value
-    setInputValues({ ...inputValues, [event.target.name]: value })
-  }
+    const value = event.target.value;
+    setInputValues({ ...inputValues, [event.target.name]: value });
+  };
 
   const [inputValues, setInputValues] = useState({
     phoneNumber: "",
     location: "",
-  })
+  });
 
   return (
     <div
       className={`${loginClass.loginPageContent} ${classes.writePageContent}`}
     >
-<<<<<<< HEAD
-      <Typography style={{ textAlign: "center" }}>Login Form</Typography>
-=======
-      <Typography style={{ textAlign: "center" , color: "orange"}}>Login Form</Typography>
+      <Typography style={{ textAlign: "center", color: "orange" }}>
+        Login Form
+      </Typography>
       {/* <div className={classes.successSubmit}>
-          <div>Successfully Submitted!</div>
-        </div> */}
->>>>>>> be1e35036b07816b36f23fc8cf570b7aa1f79154
+       <div>Successfully Submitted!</div>
+     </div> */}
       <div className={`${loginClass.loginForm} ${classes.uploadContent}`}>
         <form
           action=""
@@ -48,31 +46,31 @@ const Login = (props) => {
           <div className={classes.textFields}>
             <TextField
               id="phoneNumber"
-              label={<label style={{ color: 'orange' }}>Enter Phone Number</label>}
+              label={<label style={{ color: "white" }}>Enter Phone Number</label>}
               variant="outlined"
               name="phoneNumber"
               value={inputValues.shop}
               onChange={handleOnChange}
               className={classes.textField}
               InputProps={{
-                style: { backgroundColor: 'orange', },
+                style: { backgroundColor: "orange", },
               }}
             />
-            
+
             <input
               type="button"
               value="Login"
               className={loginClass.loginButton}
               style={{ color: "#df8a44", marginTop: "10px" }}
               onClick={() => {
-                navigate("/home")
+                navigate("/home");
               }}
             />
           </div>
         </form>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Login
+export default Login;

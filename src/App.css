@@ -4,4 +4,12 @@
 
 body {
   background-color: black;
+  margin: 0px;
+}
+button{
+  background-color: orange;
+}
+.makeStyles-headerButton-6:nth-child(5), .makeStyles-headerButton-6:nth-child(6) {
+  color: #000;
+  background-color: orange !important;
 }
