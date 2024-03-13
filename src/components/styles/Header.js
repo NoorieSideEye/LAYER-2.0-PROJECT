@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
   },
   header: {
     paddingTop: "20px",
-    backgroundColor: "#000000",
+    backgroundColor: "#FFFFFF", // Change to white
   },
   logoName: {
     display: "flex",
@@ -26,14 +26,14 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: "Quicksand, sans-serif",
     fontWeight: 600,
     fontSize: "1.75rem",
-    color: "#C4C4C4",
+    color: "#FFA500", // Change to orange
     textTransform: "capitalize",
   },
   headerButton: {
     fontFamily: "Rubik, sans-serif",
     fontWeight: 600,
     fontSize: "0.9rem",
-    color: "#FFFFFF",
+    color: "#008000", // Change to green
     borderRadius: "10px",
     size: "small",
     marginLeft: "40px",
@@ -42,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
       backgroundColor: "rgba(255, 255, 255, 0.3)",
     },
     "&:nth-child(5), &:nth-child(6)": {
-      backgroundColor: "#c3a400",
+      backgroundColor: "#FFD600", // Change to orange
       color: "#000",
     },
     "&:nth-child(6)": {
@@ -61,26 +61,6 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("sm")]: {
       marginLeft: theme.spacing(1),
       width: "auto",
-    },
-    headerButton: {
-      fontFamily: "Rubik, sans-serif",
-      fontWeight: 600,
-      fontSize: "0.9rem",
-      color: "#FFFFFF",
-      borderRadius: "5px",
-      size: "small",
-      marginLeft: "40px",
-      transition: "0.5s all ease-out",
-      "&:hover": {
-        backgroundColor: "rgba(255, 255, 255, 0.3)",
-      },
-      "&:nth-child(5), &:nth-child(6)": {
-        backgroundColor: "#FFD600",
-        color: "#000",
-      },
-      "&:nth-child(6)": {
-        marginLeft: "10px",
-      },
     },
   },
 }))
