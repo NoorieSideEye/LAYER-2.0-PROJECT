@@ -30,10 +30,14 @@ const Login = (props) => {
     <div
       className={`${loginClass.loginPageContent} ${classes.writePageContent}`}
     >
+<<<<<<< HEAD
+      <Typography style={{ textAlign: "center" }}>Login Form</Typography>
+=======
       <Typography style={{ textAlign: "center" , color: "orange"}}>Login Form</Typography>
       {/* <div className={classes.successSubmit}>
           <div>Successfully Submitted!</div>
         </div> */}
+>>>>>>> be1e35036b07816b36f23fc8cf570b7aa1f79154
       <div className={`${loginClass.loginForm} ${classes.uploadContent}`}>
         <form
           action=""
@@ -50,13 +54,16 @@ const Login = (props) => {
               value={inputValues.shop}
               onChange={handleOnChange}
               className={classes.textField}
+              InputProps={{
+                style: { backgroundColor: 'orange', },
+              }}
             />
-
+            
             <input
               type="button"
               value="Login"
               className={loginClass.loginButton}
-              style={{ color: "#000", marginTop: "10px" }}
+              style={{ color: "#df8a44", marginTop: "10px" }}
               onClick={() => {
                 navigate("/home")
               }}
