@@ -40,8 +40,7 @@ npm start
 
 
 ## Demo
-
-[FOOD FOR ALL (3).pptx](https://github.com/NoorieSideEye/LAYER-2.0-PROJECT/files/14584676/FOOD.FOR.ALL.3.pptx)# Food for all 
+[FOOD FOR ALL final ppt.pptx](https://github.com/NoorieSideEye/LAYER-2.0-PROJECT/files/14586468/FOOD.FOR.ALL.final.ppt.pptx)
 PPT FOR THE PROJECT
 
 
