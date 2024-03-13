@@ -76,19 +76,20 @@
   </style>
 </head>
 <body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-  <!-- Chatbot pop-up button -->
-  <button id="chatbot-toggle-btn">Chat with us</button>
-
-  <!-- Chatbot modal -->
-  <div id="chatbot-modal" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <iframe src="https://landbot.online/v3/H-2154952-F1VKKA8SE7V53CH5/index.html" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
-
-  <script src="bot.js" defer></script> <!-- Include your bot.js file -->
+  <html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Landbot | Convert a Landing Page into a Chatbot</title>
+  </head>
+  <body>
+    <script SameSite="None; Secure" src="https://cdn.landbot.io/landbot-3/landbot-3.0.0.js"></script>
+    <script>
+      var myLandbot = new Landbot.Fullpage({
+        configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-2154952-F1VKKA8SE7V53CH5/index.json',
+      });
+    </script>
+  </body>
+</html>
 </body>
 </html>

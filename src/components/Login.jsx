@@ -30,14 +30,7 @@ const Login = (props) => {
     <div
       className={`${loginClass.loginPageContent} ${classes.writePageContent}`}
     >
-<<<<<<< HEAD
       <Typography style={{ textAlign: "center" }}>Login Form</Typography>
-=======
-      <Typography style={{ textAlign: "center" , color: "orange"}}>Login Form</Typography>
-      {/* <div className={classes.successSubmit}>
-          <div>Successfully Submitted!</div>
-        </div> */}
->>>>>>> be1e35036b07816b36f23fc8cf570b7aa1f79154
       <div className={`${loginClass.loginForm} ${classes.uploadContent}`}>
         <form
           action=""
