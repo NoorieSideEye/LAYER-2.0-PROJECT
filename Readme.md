@@ -1,4 +1,4 @@
-[FOOD FOR ALL (3).pptx](https://github.com/NoorieSideEye/LAYER-2.0-PROJECT/files/14584676/FOOD.FOR.ALL.3.pptx)# Food for all 
+# Food for all 
 ---
 ![Main Menu](https://cdn.discordapp.com/attachments/525698680293163019/1066654798075666533/logo.png)
 
@@ -41,9 +41,7 @@ npm start
 ## Demo
 
 [FOOD FOR ALL (3).pptx](https://github.com/NoorieSideEye/LAYER-2.0-PROJECT/files/14584676/FOOD.FOR.ALL.3.pptx)# Food for all 
-
-
-[FOOD FOR ALL (3).pptx](https://github.com/NoorieSideEye/LAYER-2.0-PROJECT/files/14584672/FOOD.FOR.ALL.3.pptx)
+PPT FOR THE PROJECT
 
 Live Demo: [FoodSave_Live_Demo](https://vertexhacks-3gh3.vercel.app/)
 
