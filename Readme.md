@@ -24,7 +24,7 @@ SparrowSms: Development of an SMS platform for assisting those in need
 Next, open your preferred Terminal and execute the following commands:
 
 ```sh
-git clone git@github.com:VishalPokharel/Theme_Agriculture.git
+git clone git@github.com/NoorieSideEye/LAYER-2.0-PROJECT
 ```
 
 ```sh
