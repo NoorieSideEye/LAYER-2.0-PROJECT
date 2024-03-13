@@ -117,6 +117,14 @@ const Home = () => {
           ) : (
             <h1 style={{ color: "white" }}> No Offers Found</h1>
           )}
+          {/* Chatbot link */}
+          <a
+            href="https://landbot.online/v3/H-2154952-F1VKKA8SE7V53CH5/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={classes.exploreButton}>
+            Chat with us
+          </a>
         </div>
       </div>
     </div>
