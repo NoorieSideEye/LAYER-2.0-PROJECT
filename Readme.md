@@ -44,6 +44,5 @@ npm start
 [FOOD FOR ALL (3).pptx](https://github.com/NoorieSideEye/LAYER-2.0-PROJECT/files/14584676/FOOD.FOR.ALL.3.pptx)# Food for all 
 PPT FOR THE PROJECT
 
-Live Demo: [FoodSave_Live_Demo](https://vertexhacks-3gh3.vercel.app/)
 
 
