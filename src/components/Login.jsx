@@ -30,7 +30,7 @@ const Login = (props) => {
     <div
       className={`${loginClass.loginPageContent} ${classes.writePageContent}`}
     >
-      <Typography style={{ textAlign: "center" }}>Login Form</Typography>
+      <Typography style={{ textAlign: "center" , color: "orange"}}>Login Form</Typography>
       {/* <div className={classes.successSubmit}>
           <div>Successfully Submitted!</div>
         </div> */}
@@ -44,7 +44,7 @@ const Login = (props) => {
           <div className={classes.textFields}>
             <TextField
               id="phoneNumber"
-              label="Enter Phone Number"
+              label={<label style={{ color: 'orange' }}>Enter Phone Number</label>}
               variant="outlined"
               name="phoneNumber"
               value={inputValues.shop}

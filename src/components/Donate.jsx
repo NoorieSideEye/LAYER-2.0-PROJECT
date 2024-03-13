@@ -67,7 +67,7 @@ const Donate = (props) => {
             <div className={classes.textFields}>
               <TextField
                 id='bookTitle'
-                label="Vendor's Name"
+                label={<label style={{ color: 'orange' }}>Vendor's name</label>}
                 variant='outlined'
                 name='shop'
                 value={inputValues.shop}
@@ -77,7 +77,7 @@ const Donate = (props) => {
               <div style={{ display: "flex" }}>
                 <TextField
                   id='author'
-                  label='Food to Donate'
+                  label={<label style={{ color: 'orange' }}>Food to donate</label>}
                   variant='outlined'
                   name='food'
                   value={inputValues.food}
@@ -89,7 +89,7 @@ const Donate = (props) => {
                 />
                 <TextField
                   id='number'
-                  label='Quantity'
+                  label={<label style={{ color: 'orange' }}>Quantity</label>}
                   variant='outlined'
                   type='number'
                   name='quantity'
@@ -111,7 +111,7 @@ const Donate = (props) => {
               <div style={{ display: "flex" }}>
                 <TextField
                   id='discount'
-                  label='Discount'
+                  label={<label style={{ color: 'orange' }}>Discount</label>}
                   variant='outlined'
                   name='discount'
                   type='number'
@@ -121,7 +121,7 @@ const Donate = (props) => {
                 />
                 <TextField
                   id='discountedPrice'
-                  label='Discounted Price'
+                  label={<label style={{ color: 'orange' }}>Discounted price</label>}
                   variant='outlined'
                   type='number'
                   name='discountedPrice'
@@ -135,7 +135,7 @@ const Donate = (props) => {
                 />
                 <TextField
                   id='type'
-                  label='Type of Retailer'
+                  label={<label style={{ color: 'orange' }}>Type of retailer</label>}
                   variant='outlined'
                   type='text'
                   name='type'
@@ -147,6 +147,7 @@ const Donate = (props) => {
                 style={{
                   margin: "10px 0px 0px 10px",
                   fontSize: "1rem",
+                  color: "orange",
                 }}>
                 Details
               </Typography>
