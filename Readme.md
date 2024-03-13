@@ -1,6 +1,7 @@
 # Food for all 
 ---
-![Main Menu](https://cdn.discordapp.com/attachments/525698680293163019/1066654798075666533/logo.png)
+![logo](https://github.com/NoorieSideEye/LAYER-2.0-PROJECT/assets/146981522/9128160e-421d-411f-9e77-692d823962be)
+
 
 The problem: addressing global food wastage and insecurity, despite substantial agricultural workforces.
 
@@ -23,7 +24,7 @@ SparrowSms: Development of an SMS platform for assisting those in need
 Next, open your preferred Terminal and execute the following commands:
 
 ```sh
-git clone git@github.com:VishalPokharel/Theme_Agriculture.git
+git clone git@github.com/NoorieSideEye/LAYER-2.0-PROJECT
 ```
 
 ```sh
@@ -43,6 +44,5 @@ npm start
 [FOOD FOR ALL (3).pptx](https://github.com/NoorieSideEye/LAYER-2.0-PROJECT/files/14584676/FOOD.FOR.ALL.3.pptx)# Food for all 
 PPT FOR THE PROJECT
 
-Live Demo: [FoodSave_Live_Demo](https://vertexhacks-3gh3.vercel.app/)
 
 

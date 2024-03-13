@@ -1,4 +1,4 @@
-import { makeStyles } from "@material-ui/core"
+import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   mainContent: {
@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: "0px",
   },
   moreButton: {
-    color: "#FFD600",
+    color: "orange", // Change to orange
     fontFamily: "Rubik, sans-serif",
   },
   featured: {
@@ -65,10 +65,10 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   exploreButton: {
-    backgroundColor: "#FFD600",
+    backgroundColor: "orange", // Change to orange
     transition: "0.5s all ease-out",
     "&:hover": {
-      backgroundColor: "rgba(255, 214, 0,0.7)",
+      backgroundColor: "rgba(255, 214, 0,0.7)", // Orange with opacity
     },
     borderRadius: "30px",
     fontFamily: "Rubik, sans-serif",
@@ -87,7 +87,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "1.5rem",
     margin: "10px 0px",
     fontWeight: 500,
-    color: "#26EC8D",
+    color: "green", // Change to green
   },
   itemsList: {
     "& p": {
@@ -105,12 +105,12 @@ const useStyles = makeStyles((theme) => ({
   },
   listButton: {
     backgroundColor: "rgba(255, 255, 255,0.08)",
-    color: "#FFD600",
+    color: "orange", // Change to orange
     "&:hover": {
       backgroundColor: "rgba(255, 255, 255,0.1)",
     },
     paddingTop: "0px",
   },
-}))
+}));
 
-export { useStyles }
+export { useStyles };
