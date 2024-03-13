@@ -6,8 +6,8 @@ const AnyReactComponent = ({ text }) => <div>{text}</div>;
 export default function SimpleMap() {
   const defaultProps = {
     center: {
-      lat: 27.683003,
-      lng: 85.325934,
+      lat: 13.0827, // Chennai latitude
+      lng: 80.2707, // Chennai longitude
     },
     zoom: 11,
   };
@@ -18,8 +18,13 @@ export default function SimpleMap() {
       <GoogleMapReact
         bootstrapURLKeys={{ key: "" }}
         defaultCenter={defaultProps.center}
-        defaultZoom={defaultProps.zoom}>
-        <AnyReactComponent lat={27.683003} lng={85.325934} text='My Marker' />
+        defaultZoom={defaultProps.zoom}
+      >
+        <AnyReactComponent
+          lat={13.0827}
+          lng={80.2707}
+          text="Chennai, Tamil Nadu, India"
+        />
       </GoogleMapReact>
     </div>
   );
