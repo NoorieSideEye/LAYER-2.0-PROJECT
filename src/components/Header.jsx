@@ -1,6 +1,6 @@
 import React from "react"
 import { Link as RouterLink } from "react-router-dom"
-import logo from "../assets/logo.png"
+import logo from "../assets/For All.png"
 import {
   AppBar,
   Toolbar,
@@ -9,7 +9,6 @@ import {
   Box,
   InputBase,
 } from "@material-ui/core"
-import SearchIcon from "@material-ui/icons/Search"
 
 import { useStyles } from "./styles/Header"
 
@@ -67,7 +66,7 @@ const Header = () => {
               <div className={logoName}>
                 <img src={logo} alt="logo" className={img} />
                 <Typography variant="h6" component="h1" className={headerTitle}>
-                  FoodSave
+                  FoodForAll
                 </Typography>
               </div>
               {/* <div className={search}>

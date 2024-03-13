@@ -19,6 +19,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "10px 0px",
     width: "80px",
     height: "80px",
+    borderRadius: '48px',
   },
   headerTitle: {
     margin: "5px 0px 0px 10px",

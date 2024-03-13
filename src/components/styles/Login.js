@@ -7,9 +7,12 @@ const useStyles = makeStyles((theme) => ({
         "& p": {
             fontSize: "1.5rem",
         },
+        '& $notchedOutline': {
+            borderColor: 'orange',
+          },
         marginTop: "40px"
     },
-
+  
     loginButton: {
         padding: "5px 10px",
         background: "#FFD600",
