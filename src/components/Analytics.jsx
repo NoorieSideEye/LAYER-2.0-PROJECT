@@ -2,7 +2,7 @@ import { Button, Divider, Typography } from "@material-ui/core"
 import React from "react"
 import trend from "../assets/trends.jpg"
 import analytics from "../assets/analytics.jpg"
-import sales from "../assets/sales.png"
+import sales from "../assets/Foodwaste.jpg"
 import { useStyles } from "./styles/Home"
 import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward"
 
