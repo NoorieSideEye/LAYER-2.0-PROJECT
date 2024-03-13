@@ -1,6 +1,7 @@
 # Food for all 
 ---
-![Main Menu](https://cdn.discordapp.com/attachments/525698680293163019/1066654798075666533/logo.png)
+![logo](https://github.com/NoorieSideEye/LAYER-2.0-PROJECT/assets/146981522/9128160e-421d-411f-9e77-692d823962be)
+
 
 The problem: addressing global food wastage and insecurity, despite substantial agricultural workforces.
 
