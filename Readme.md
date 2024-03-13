@@ -1,4 +1,4 @@
-# FoodSave : Save the Food
+# Food for all 
 ---
 ![Main Menu](https://cdn.discordapp.com/attachments/525698680293163019/1066654798075666533/logo.png)
 
