@@ -16,7 +16,7 @@ const MarketPlace = () => {
 
   return (
     <div className={marketClasses.mainContent}>
-      <div className={marketClasses.heading} style={{ marginTop: "30px" }}>
+      <div className={marketClasses.heading} style={{ marginTop: "30px",backgroundColor: "black" }}>
         <Typography>All Offers</Typography>
       </div>
       <div className={homeClasses.itemsList}>

@@ -6,7 +6,6 @@ body {
   background-color: black;
   margin: 0px;
 }
-<<<<<<< HEAD
 button{
   background-color: orange;
 }
@@ -14,65 +13,32 @@ button{
   color: #000;
   background-color: orange !important;
 }
-=======
-
-/* Modal styles */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+.makeStyles-submitButton-20 {
+  width: 15%;
+  margin: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  background-color: orange !important;
 }
-
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  max-width: 600px;
+.makeStyles-chooseFile-18 {
+  color: #000;
+  float: left;
+  border: 1px solid orange !important;
+  cursor: pointer;
+  padding: 5px 10px;
   position: relative;
+  background: orange !important;
+  text-align: center;
+  font-family: Rubik, sans-serif;
+  font-weight: 500;
+  border-radius: 2px;
 }
-
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+.makeStyles-textFields-15 :nth-child(2) p {
+  font-size: 1.2rem;
+  margin-left: 0px;
+  margin-right: 20px;
+  color: orange !important;
 }
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
+.makeStyles-textFields-15 input {
+  color: orange !important;
 }
-
-/* Responsive iframe */
-iframe {
-  width: 100%;
-  height: 500px;
-}
-
-/* Chatbot button style */
-#chatbot-toggle-btn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 20px;
-  background-color: orange;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-#chatbot-toggle-btn:hover {
-  background-color: #ff9900; /* Lighter shade of orange on hover */
-}
->>>>>>> ff954362b64cd979bc31ed9d247fe817d773487a

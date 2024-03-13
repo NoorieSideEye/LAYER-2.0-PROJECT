@@ -52,9 +52,7 @@ const Login = (props) => {
               value={inputValues.shop}
               onChange={handleOnChange}
               className={classes.textField}
-              InputProps={{
-                style: { backgroundColor: "orange", },
-              }}
+              
             />
 
             <input

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FoodSavers</title>
+  <title>FoodForAll</title>
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -59,16 +59,19 @@
 
     /* Button style */
     #chatbot-toggle-btn {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      padding: 10px 20px;
-      background-color: orange;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
+    position: fixed;
+    bottom: 70px;
+    right: 36px;
+    padding: 10px 20px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10%;
+    height: 10%;
+    font-size: large;
+}
 
     #chatbot-toggle-btn:hover {
       background-color: #ff9900; /* Lighter shade of orange on hover */
@@ -79,10 +82,16 @@
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
   <!-- Chatbot pop-up button -->
-  <button id="chatbot-toggle-btn">Chat with us</button>
+  <button
+  id="chatbot-toggle-btn"
+  class="exploreButton"
+  onclick="window.open('https://landbot.online/v3/H-2154952-F1VKKA8SE7V53CH5/index.html', '_blank')"
+>
+  Chat with us
+</button>
 
   <!-- Chatbot modal -->
-  <div id="chatbot-modal" class="modal">
+  <div id="chatbot-modal " class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
       <iframe src="https://landbot.online/v3/H-2154952-F1VKKA8SE7V53CH5/index.html" frameborder="0" allowfullscreen></iframe>
