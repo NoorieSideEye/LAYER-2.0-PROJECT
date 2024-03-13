@@ -1,28 +1,26 @@
-# Food for all 
+[FOOD FOR ALL (3).pptx](https://github.com/NoorieSideEye/LAYER-2.0-PROJECT/files/14584676/FOOD.FOR.ALL.3.pptx)# Food for all 
 ---
 ![Main Menu](https://cdn.discordapp.com/attachments/525698680293163019/1066654798075666533/logo.png)
 
-The goal of the problem statement was to address two issues: the fact that a lot of food is wasted every day and that some people go without food. The second issue was that, despite 66% of the population working in agriculture, Nepal's output was insufficient for its population. We have imagined an application that covers both areas in order to do that. 
+The problem: addressing global food wastage and insecurity, despite substantial agricultural workforces.
 
-Our proposed solution is “FoodSave”, which is robust and addresses the issues of both parties involved. We have thoroughly considered the problem statement and have formulated an appropriate answer to that likewise. This app is based on the Ethereum-based blockchain architecture implemented using a simple user friendly frontend.
-
+Our solution: "Food for all," a robust application leveraging Ethereum blockchain technology. It provides a user-friendly interface to comprehensively tackle these challenges.
 ## Tools and Technologies Used
 
-- Solidity : Language used to write Smart Contract
-- [Remix IDE](https://remix.ethereum.org) :Code, Test and Deploy Smart Contract
-- Add Metamask extension to browser
-- Polygon: Deploy smart contract 
-- Web3
-- [Alchemy](https://infura.io/): Create an account and deploy smart contract on testnets
-- ReactJS for frontend
-- [SparrowSms](https://docs.sparrowsms.com/): Create sms platform for the needy ones
+- Solidity: Programming language utilized for crafting Smart Contracts
 
+Remix IDE: Platform for coding, testing, and deploying Smart Contracts
+Integrate Metamask extension into the browser
+Polygon: Platform for the deployment of smart contracts
+Web3
+Alchemy: Platform for account creation and deployment of smart contracts on testnets
+Frontend development using ReactJS
+SparrowSms: Development of an SMS platform for assisting those in need
 
 ## Development
-> You should have already installed node and npm 
+> Ensure that you have already installed Node.js and npm on your system.
 
-
-Open your favorite Terminal and run these commands.
+Next, open your preferred Terminal and execute the following commands:
 
 ```sh
 git clone git@github.com:VishalPokharel/Theme_Agriculture.git
@@ -41,8 +39,9 @@ npm start
 
 
 ## Demo
-Demo Video: [FoodSave_Demo_Video](https://www.youtube.com/watch?v=_Oxoa3DcnKk)
 
+
+[FOOD FOR ALL (3).pptx](https://github.com/NoorieSideEye/LAYER-2.0-PROJECT/files/14584672/FOOD.FOR.ALL.3.pptx)
 
 Live Demo: [FoodSave_Live_Demo](https://vertexhacks-3gh3.vercel.app/)
 
